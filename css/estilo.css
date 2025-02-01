@@ -1,0 +1,81 @@
+body {
+    background-color: #141414;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    min-height: 1000px;
+}
+
+h1 {
+    font-family: 'Inter-Variable', serif;
+}
+
+h5 {
+    font-family: 'Inter-Variable', serif;
+}
+
+p {
+    font-family: 'Inter-Variable', serif;
+}
+
+h4 {
+    font-family: 'Inter-Variable', serif;
+}
+
+.cartao {
+    background-color: #1f1f1f;
+    display: flex;
+    flex-direction: column;
+    padding: 33px;
+    gap: 25px;
+    align-items: center;
+    border-radius: 9px;
+}
+
+.lista {
+    width: 387px;
+    height: 578px;
+    padding: 10px;
+    margin-top: 20vh;
+}
+
+.cartao .nome {
+    font-size: 26px;
+    text-align: center;
+    color: white;
+    line-height: 1%;
+    letter-spacing: 0%;
+}
+
+.cartao .lugar {
+    font-size: 15px;
+    color: #c8e45b;
+    text-align: center;
+    letter-spacing: 0%;
+}
+
+.cartao .paragrafo {
+    font-size: 15px;
+    text-align: center;
+    color: #a4a4a4;
+    letter-spacing: 0%;
+}
+
+.cartao .social {
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    background-color: #333333;
+    padding: 11px;
+    width: 310px;
+    border-radius: 7px;
+}
+
+.imagem-social-link {
+    border-radius: 85px;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 23px;
+}
